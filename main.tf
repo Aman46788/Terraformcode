@@ -2,6 +2,10 @@ resource "azurerm_resource_group" "RGnarendra7" {
   name     = "rgpradeep7"
   location = "West Europe"
 }
+resource "azurerm_resource_group" "RGnarendr8" {
+  name     = "rg101"
+  location = "West Europe"
+}
 resource "azurerm_resource_group" "RGnarendra8" {
   name     = "rg102"
   location = "West Europe"
