@@ -2,7 +2,10 @@ resource "azurerm_resource_group" "RGnarendra7" {
   name     = "rgpradeep7"
   location = "West Europe"
 }
-
+resource "azurerm_resource_group" "RGnarendra8" {
+  name     = "rg102"
+  location = "West Europe"
+}
  resource "azurerm_virtual_network" "vn_router" {
    name = "vnaman"
    address_space = ["10.0.0.0/16"]
